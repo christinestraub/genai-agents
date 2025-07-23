@@ -144,7 +144,7 @@ async def init_node(state: AgentState) -> AgentState:
     print('-----Initial Node-----')
     task = state['task']
 
-    base_url = "https://en.wikipedia.org/wiki/Large_language_model"
+    base_url = "https://www.ibm.com/think/topics/large-language-models"
 
     await initialize_browser()
     navigate_output = await navigate_url.ainvoke(base_url)
@@ -360,7 +360,7 @@ if __name__ == "__main__":
         "current_ss": [],
         "summaries": [],
         "scroll_decision": None,
-        "task": "Give a brief overview of this Wikipedia page on Large Language Models."
+        "task": "Give a brief overview of this IBM page about Large Language Models."
     }
 
     print("\n--- Starting LangGraph Agent ---\n")
@@ -372,7 +372,7 @@ async def run_graph():
         "current_ss": [], # Initialize as empty list to store base64 strings
         "summaries": [],  # Initialize as empty list to store summary messages
         "scroll_decision": None,
-        "task": "Give a brief overview of this Wikipedia page on Large Language Models." # Example task
+        "task": "Give a brief overview of this IBM page about Large Language Models." # Example task
     }
     print("\n--- Starting LangGraph Agent ---\n")
 
