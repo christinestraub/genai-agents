@@ -10,7 +10,7 @@ This project implements a **Visual Web Browser Agent** using LangGraph and Playw
 - **Extensible:** Easily add new tools or nodes for more complex browser automation tasks.
 
 ## How It Works
-1. **Initialize Browser:** Launches a Playwright browser and navigates to a target URL (default: Wikipedia page on Large Language Models).
+1. **Initialize Browser:** Launches a Playwright browser and navigates to a target URL (default: IBM's page about Large Language Models).
 2. **Screenshot & Summarize:** Takes a screenshot, sends it to a vision LLM, and stores the summary.
 3. **Scroll Decision:** The agent decides whether to scroll for more content (currently forced to always scroll for demo/testing).
 4. **Loop or Aggregate:** If scrolling, repeats the screenshot/summarization. If not, aggregates all summaries into a final report.
@@ -55,7 +55,7 @@ python agentic_brwoser.py
 
 The agent will:
 - Open a browser window
-- Navigate to the Wikipedia page on Large Language Models
+- Navigate to IBM's comprehensive page about Large Language Models
 - Take screenshots, summarize them, and decide whether to scroll
 - Aggregate the summaries into a final report
 - Print progress and results to the console
