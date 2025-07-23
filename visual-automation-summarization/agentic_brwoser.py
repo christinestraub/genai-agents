@@ -163,7 +163,7 @@ async def ss_node(state: AgentState) -> AgentState:
 
     print('-----Screenshot Node-----')
     try:
-        b64_ss = await take_ss.ainvoke() #input = None removed
+        b64_ss = await take_ss.ainvoke(input=None)
         print("*****Screenshot captured and returned from tool*****")
 
         current_ss_list = state.get("current_ss") #.get method of dictionaries to access values corresponding to a key.
