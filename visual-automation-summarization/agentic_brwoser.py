@@ -6,7 +6,7 @@ from langgraph.graph import END, StateGraph
 from langgraph.graph.message import add_messages
 
 from langchain_core.tools import tool
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_openai import ChatOpenAI
 from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage
 
 from playwright.async_api import async_playwright, Page, Browser
@@ -132,7 +132,7 @@ async def scroll_down() -> str:
     return f"*****Scrolled {scroll_amount}px*****"
 
 agent_tools = [navigate_url, take_ss, scroll_down]
-llm = ChatGoogleGenerativeAI(model = 'gemini-2.5-flash').bind_tools(tools = agent_tools)
+llm = ChatOpenAI(model="gpt-4o", temperature=0).bind_tools(tools=agent_tools)
 
 
 
