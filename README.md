@@ -2,7 +2,7 @@
 
 A collection of intelligent AI agents built with modern frameworks like LangGraph, LangChain, and various automation tools. Each agent is designed to solve specific tasks through autonomous decision-making and tool usage.
 
-1. Visual Automation Summarization Agent
+## Visual Automation Summarization Agent
 **Location:** `visual-automation-summarization/`
 
 An intelligent web browsing agent that can visually navigate websites, take screenshots, and provide AI-powered summaries of web content.
