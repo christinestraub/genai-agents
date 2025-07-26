@@ -1,4 +1,4 @@
-# GenAI Agents Collection
+# GenAI Agents
 
 A collection of intelligent AI agents built with modern frameworks like LangGraph, LangChain, and various automation tools. Each agent is designed to solve specific tasks through autonomous decision-making and tool usage.
 
