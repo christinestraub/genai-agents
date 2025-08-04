@@ -1,0 +1,13 @@
+# Example blog URLs for testing
+# Lines starting with # are comments and will be ignored
+
+https://example.com/blog/introduction-to-ai
+https://techblog.com/machine-learning-basics
+https://devblog.io/python-best-practices
+
+# RSS feeds are also supported
+https://feeds.example.com/rss.xml
+
+# You can add as many URLs as needed
+https://anotherblog.com/automation-guide
+https://blog.company.com/latest-trends

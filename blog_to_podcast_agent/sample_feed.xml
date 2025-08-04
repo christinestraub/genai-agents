@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+    <title>Blog to Podcast Feed</title>
+    <description>Automatically generated podcasts from blog content</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 14:30:22 +0000</lastBuildDate>
+    <generator>Blog to Podcast Agent</generator>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+
+    <item>
+        <title>Introduction to AI and Machine Learning</title>
+        <description>Artificial Intelligence is transforming every industry through machine learning algorithms and data-driven insights.</description>
+        <link>https://example.com/blog/introduction-to-ai</link>
+        <guid>https://example.com/blog/introduction-to-ai</guid>
+        <pubDate>Mon, 15 Jan 2024 14:28:45 +0000</pubDate>
+        <enclosure url=".//introduction-to-ai-and-machine-learning/podcast.wav" type="audio/wav" length="2411724"/>
+    </item>
+
+    <item>
+        <title>Python Best Practices for Developers</title>
+        <description>Learn essential Python coding standards, testing practices, and performance optimization techniques for professional development.</description>
+        <link>https://devblog.io/python-best-practices</link>
+        <guid>https://devblog.io/python-best-practices</guid>
+        <pubDate>Mon, 15 Jan 2024 14:26:12 +0000</pubDate>
+        <enclosure url=".//python-best-practices-for-developers/podcast.wav" type="audio/wav" length="1887436"/>
+    </item>
+
+    <item>
+        <title>The Future of Web Development</title>
+        <description>Exploring emerging technologies like WebAssembly, serverless computing, and progressive web apps.</description>
+        <link>https://techblog.com/future-web-development</link>
+        <guid>https://techblog.com/future-web-development</guid>
+        <pubDate>Mon, 15 Jan 2024 14:23:30 +0000</pubDate>
+        <enclosure url=".//the-future-of-web-development/podcast.wav" type="audio/wav" length="2202009"/>
+    </item>
+</channel>
+</rss>

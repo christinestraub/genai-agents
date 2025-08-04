@@ -1,0 +1,12 @@
+streamlit==1.28.1
+crewai==0.1.6
+crewai-tools==0.0.1
+anthropic==0.8.1
+selenium==4.15.0
+webdriver-manager==4.0.1
+openai-whisper==20231117
+numpy==1.24.3
+wave==0.0.2
+cryptography==41.0.7
+keyring==24.2.0
+python-dotenv==1.0.0
